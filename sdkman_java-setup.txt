@@ -1,0 +1,19 @@
+--------------------------------------------------
+Java: Setup com SDKMan
+--------------------------------------------------
+
+Abra um terminal no Linux e execute os comandos na sequência:
+1. curl -s "https://get.sdkman.io" | bash
+2. Feche e abra o terminal novamente
+3. sdk update
+4. sdk flush candidates
+5. sdk selfupdate force
+
+Java (SDK):
+1. sdk install java 17.0.2-ms
+2. sdk default java 17.0.2-ms
+3. sdk use java 17.0.2-ms
+
+Verifique se a versão foi realmente alterada executando os comandos:
+1. java -version
+2. echo $JAVA_HOME

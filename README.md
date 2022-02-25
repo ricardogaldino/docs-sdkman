@@ -1,2 +1,2 @@
-# docs-sdkman
-SDKMan (Software Development Kit Manager)
+# SDKMan (Software Development Kit Manager)
+https://sdkman.io/ <br/>
